@@ -33,3 +33,7 @@
 .content {
   padding-top: 50px; /* Adjust according to the height of your bar */
 }
+
+body {
+  background-color: white;
+}
