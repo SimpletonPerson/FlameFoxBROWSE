@@ -1,0 +1,35 @@
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(200px, 1fr)
+  ); /* Adjust column width as needed */
+  grid-gap: 10px; /* Adjust the gap between images */
+}
+
+.image {
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.windows-bar {
+  background-color: #0078d4; /* Windows-like blue color */
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure the bar is above other content */
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  padding-top: 50px; /* Adjust according to the height of your bar */
+}
